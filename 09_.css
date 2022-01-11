@@ -1,0 +1,21 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: tomato;
+    background-color: turquoise;
+}
+
+h2 {
+    background-color: yellowgreen;
+    color: black;
+}
+
+p {
+    color: blueviolet;
+}
+
+div {
+    color: black;
+}
