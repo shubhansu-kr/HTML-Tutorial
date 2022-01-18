@@ -1,0 +1,15 @@
+body {
+    background-color: yellow;
+}
+
+.newlayout {
+    display: flex;
+    /* flex-direction: column; */
+}
+.newlayout div {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 4px;
+}
