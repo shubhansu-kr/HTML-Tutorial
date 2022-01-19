@@ -1,0 +1,28 @@
+*{
+    margin: 2px;
+}
+
+.child {
+    display: flex;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    flex-basis: 200px;
+}
+
+.parent {
+    display: flex;
+    background-color: red;
+    width: 100vh;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* flex-basis: 500px; */
+}
+
+.child2{
+    display: flex;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
