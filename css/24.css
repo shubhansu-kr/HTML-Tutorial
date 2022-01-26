@@ -1,0 +1,42 @@
+body {
+    height: 200vh; /* Makes the web page scrollable */
+}
+
+header {
+    background-color: rebeccapurple;
+    position: sticky;
+    height: 100px;
+    width: 100%;
+}
+
+header div {
+    background-color: seagreen;
+    margin-top: 10px;
+    height: 50px;
+}
+
+div{
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+    top: 10px;
+    margin: 10px;
+}
+
+.sticky {
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+    position: sticky; /* Used to add a sticky div which 
+                            dont moves with scroll */
+    top: 10px;
+    margin: 10px;
+}
+
+footer{
+    /* Margin of a footer and header is 10px by default */
+    background-color: sienna;
+    height: 100%;
+    width: auto;
+    margin: 10px;
+}
