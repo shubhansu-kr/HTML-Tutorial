@@ -1,0 +1,29 @@
+body{
+    height: 200vh;
+    /* margin: 0%; */
+}
+
+.first {
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.second {
+    height: 100px;
+    width: 100%;
+    background-color: tomato;
+    /* position: sticky; */
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+div span {
+    height: 100px;
+    width: 100px;
+    /* position: ; */
+    background-color: blue;
+    position: absolute;
+    top:0 ;
+    left: 0;
+}
