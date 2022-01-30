@@ -1,0 +1,238 @@
+<!--  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" charset="UTF-8" />
+    <title>Secure Shell</title>
+    <link rel="stylesheet" href="./css/30.css">
+</head>
+
+<body>
+    <header id="header">
+        <img src="./resource/SSHimage.png" alt="SSH" id="header-img">
+        <div id="header-title">
+            Secure Shell
+        </div>
+        <nav id="nav-bar">
+            <button class="nav-link"><a href="#ssh-protocol" style="text-decoration: none;">SSH Protocols</a></button>
+            <button class="nav-link"><a href="#download-client" style="text-decoration: none;">Download</a></button>
+            <button class="nav-link"><a href="#form" style="text-decoration: none;">Subscribe</a></button>
+            <button class="nav-link"><a href="#tutorial" style="text-decoration: none;">Turorial</a></button>
+            <button class="nav-link"><a href="#history" style="text-decoration: none;">History</a></button>
+            <button class="nav-link"><a href="#contact" style="text-decoration: none;">End</a></button>
+        </nav>
+    </header>
+    <hr>
+    <footer>
+        <div id="intro">
+            <h1>Home Page</h1>
+            <p>
+                This is the start page for the SSH (Secure Shell) protocol, software, and related information. SSH is a
+                software package that enables secure system administration and file transfers over insecure networks. It
+                is used in nearly every data center and in every large enterprise.
+            </p>
+            <p>
+                This page was created by the inventor of SSH, <a href="https://ylonen.org/" class="pg-link">Tatu
+                    Ylonen</a> (twitter: <a href="https://twitter.com/tjssh" class="pg-link">@tjssh</a>). He wrote
+                ssh-1.x and
+                ssh-2.x, and still works on related topics. The open source OpenSSH implementation is based on his free
+                version.
+            </p>
+            Contents :
+            <ul>
+                <li><a href="#ssh-protocol" class="pg-link">The SSH protocol</a> </li>
+                <li><a href="#download-client" class="pg-link">Download client software</a></li>
+                <li><a href="#list" class="pg-link">List of SSH implementations</a></li>
+                <li><a href="#history" class="pg-link">History of the SSH protocol</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div id="ssh-protocol">
+            <h1>The SSH protocol</h1>
+            <p>
+                The SSH protocol uses encryption to secure the connection between a client and a server. All user
+                authentication, commands, output, and file transfers are encrypted to protect against attacks in the
+                network. For details of how the SSH protocol works, see the <a href="https://www.ssh.com/ssh/protocol/"
+                    class="pg-link">protocol page</a>. To understand the SSH File
+                Transfer Protocol, see the <a href="https://www.ssh.com/ssh/sftp">SFTP page</a>.
+            </p>
+            <img src="./resource/SSH_simplified_protocol_diagram-2.webp" alt="protocal" style="margin: 5px 0 0 125px;">
+        </div>
+        <hr>
+        <div id="download-client">
+            <h1>Download client software</h1>
+            <p>Here you can find links to download various free SSH implementations. We offer various free SSH
+                implementations for download, and provide links to commercial implementations.
+            </p>
+            <ul>
+                <li><a href="https://www.ssh.com/ssh/putty/download" class="pg-link">Download PuTTY</a></li>
+                <li> <a href="https://www.ssh.com/ssh/download/">Download SSH clients</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div id="list">
+            <h1>List of SSH implementations</h1>
+            <p>We list various SSH implementations here. Feel free to submit additional implementations for this page.
+                For many implementations we offer a review, installation instructions, guidance, and/or how-tos on this
+                site.
+            </p>
+            <ul>
+                <li><a href="https://www.ssh.com/products/tectia-ssh/" class="pg-link">Tectia SSH </a>client & server
+                    for Windows, Unix, Linux - with 24x7 support</li>
+                <li><a href="https://www.ssh.com/products/tectia-ssh-zOS" class="pg-link">Tectia SSH for IBM z/OS
+                    </a>client & server for IBM z/OS mainframes - with 24x7 support</li>
+                <li><a href="https://www.ssh.com/ssh/putty/" class="pg-link">PuTTY </a>client for Windows and Linux</li>
+                <li><a href="https://www.ssh.com/ssh/winscp" class="pg-link">WinSCP </a>client for Windows</li>
+                <li><a href="https://www.ssh.com/ssh/cyberduck/" class="pg-link">CyberDuck</a> client for Mac</li>
+                <li><a href="https://www.ssh.com/ssh/openssh/" class="pg-link">OpenSSH</a> server for Unix, Linux</li>
+                <li><a href="https://www.ssh.com/ssh/client" class="pg-link">Overview of client alternatives</a></li>
+                <li><a href="https://www.ssh.com/ssh/server" class="pg-link">Overview of server alternatives</a></li>
+                <li><a href="https://www.ssh.com/ssh/windows/" class="pg-link">Windows SSH alternatives</a></li>
+                <li><a href="https://www.ssh.com/products/privx/" class="pg-link">PrivX™ Privileged Access Management
+                        for multi-cloud</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div id="history">
+            <h1>History of the SSH protocol</h1>
+            <p>The <a href="https://www.ssh.com/ssh/protocol/" class="pg-link">Secure Shell protocol</a> was originally
+                developed by <a href="https://ylonen.org/" class="pg-link">Tatu Ylonen</a> in 1995 in response to a
+                hacking
+                incident in the Finnish university network. A password sniffer had been installed on a server connected
+                directly to the backbone, and when it was discovered, it had thousands of usernames and passwords in its
+                database, including several from Ylonen's company.
+            </p>
+            <p>
+                That incident triggered Ylonen to study cryptography and develop a solution he could use himself for
+                remote login over the Internet safely. His friends proposed additional features, and three months later,
+                in July 1995, Ylonen published the first version as open source. It became OpenSSH. Later he took the
+                protocol for standardization at the IETF and designed the <a href="https://www.ssh.com/ssh/sftp/"
+                    class="pg-link">SSH File Transfer Protocol (SFTP)</a>. He founded
+                SSH Communications Security Corp in December 1995 to provide commercial support for the protocol.
+            </p>
+            <p>
+                Ylonen still works on topics related to Secure Shell, particularly around key management, as well as
+                broader cybersecurity topics.
+            </p>
+            <p>
+                Today, the protocol is used for managing more than half of world’s web servers and practically every
+                Unix or Linux computer, on-premise and in the cloud. Information security specialists and system
+                administrators use it to configure, manage, maintain, and operate most firewalls, routers, switches, and
+                servers in the millions of mission-critical networks and environments of our digital world. It is also
+                embedded inside many file transfer and systems management solutions.
+            </p>
+            <p>
+                The new protocol replaced several legacy tools and protocols, including <a
+                    href="https://www.ssh.com/ssh/telnet" class="pg-link">telnet</a>, <a
+                    href="https://www.ssh.com/ssh/ftp/">ftp</a>, <a href="https://www.ssh.com/ssh/ftp/ftps"
+                    class="pg-link">FTP/S</a>, <a href="https://www.ssh.com/ssh/rlogin" class="pg-link">rlogin</a>, <a
+                    href="https://www.ssh.com/ssh/rsh" class="pg-link">rsh</a>,
+                and <a href="https://www.ssh.com/ssh/rcp" class="pg-link">rcp</a>.
+            </p>
+        </div>
+        <hr>
+        <div id="tutorial">
+            <h1>Tutorial</h1>
+            <p>
+                This video tutorial is creted by <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+                    class="pg-link">traversy media</a>.
+            </p>
+            <p>
+                In this video we will learn the fundamentals of SSH along with some basic DevOps and Linux stuff. We
+                will
+                start with a local Ubuntu server on my network and then create a remote Digital Ocean Droplet to work
+                with. We will create sets of SSH keys for those as well as Github. We will even do a simple React app
+                deployment.
+            </p>
+            <iframe id="video" src="https://www.youtube.com/embed/hQWRp-FdTpc" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <hr>
+        <div id="form-div">
+            <h1>Subscribe</h1>
+            <p>Subscribe to the news letter for latest update in the software.</p>
+            <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+                <input type="email" placeholder="Your email address here" id="email">
+                <input type="submit" value="Subscribe" id="submit">
+            </form>
+            <p>
+
+            </p>
+        </div>
+        <hr>
+        <div id="contact">
+            <p>
+                Contact details  
+            </p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/shubhansu-kr">Linkedin</a></li>
+                <li><a href="https://github.com/shubhansu-kr">Github</a></li>
+                <!-- <li><a href="shubhansukumar563@gmail.com">Gmail</a></li> -->
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<!-- 
+    You can use HTML, JavaScript, and CSS to complete this project. 
+    Plain CSS is recommended because that is what the lessons have 
+    covered so far and you should get some practice with plain CSS. 
+    You can use Bootstrap or SASS if you choose. Additional technologies 
+    (just for example jQuery, React, Angular, or Vue) are not recommended 
+    for this project, and using them is at your own risk. Other projects 
+    will give you a chance to work with different technology stacks like 
+    React. We will accept and try to fix all issue reports that use the 
+    suggested technology stack for this project. Happy coding!
+
+    User Story #1: My product landing page should have a header element 
+    with a corresponding id="header".
+
+    User Story #2: I can see an image within the header element with a 
+    corresponding id="header-img". A company logo would make a good 
+    image here.
+
+    User Story #3: Within the #header element I can see a nav element 
+    with a corresponding id="nav-bar".
+
+    User Story #4: I can see at least three clickable elements inside 
+    the nav element, each with the class nav-link.
+
+    User Story #5: When I click a .nav-link button in the nav element, 
+    I am taken to the corresponding section of the landing page.
+
+    User Story #6: I can watch an embedded product video with id="video".
+
+    User Story #7: My landing page has a form element with a corresponding 
+    id="form".
+
+    User Story #8: Within the form, there is an input field with 
+    id="email" where I can enter an email address.
+
+    User Story #9: The #email input field should have placeholder text 
+    to let the user know what the field is for.
+
+    User Story #10: The #email input field uses HTML5 validation to 
+    confirm that the entered text is an email address.
+
+    User Story #11: Within the form, there is a submit input with a 
+    corresponding id="submit".
+
+    User Story #12: When I click the #submit element, the email is 
+    submitted to a static page (use this mock URL: 
+    https://www.freecodecamp.com/email-submit).
+
+    User Story #13: The navbar should always be at the top of the 
+    viewport.
+
+    User Story #14: My product landing page should have at least one 
+    media query.
+
+    User Story #15: My product landing page should utilize CSS flexbox 
+    at least once.
+ -->
