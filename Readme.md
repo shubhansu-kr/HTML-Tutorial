@@ -13,6 +13,3 @@ Made few basic webpages :
 Check out my codedamn profile for code certification [@shubhansu](https://codedamn.com/user/shubhansu).
 
 Course duration : 6th Jan 2022 - 5th Feb 2022.  
-
-This repo contains the files created while learning HTML 
-Start date -> 6 Jan 2022 
