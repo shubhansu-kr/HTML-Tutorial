@@ -13,6 +13,6 @@ Made few basic webpages :
 Check out my codedamn profile for code certification [@shubhansu](https://codedamn.com/user/shubhansu).
 
 Course [Certificate](./resource/html-css-codedamn.pdf) :    
-![certificate](./resource/html-css-codedamn.pdf)   
+![certificate](./resource/Certificate.jpg)   
 
 Course duration : 6th Jan 2022 - 5th Feb 2022.     
